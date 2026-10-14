@@ -1,0 +1,59 @@
+
+body {
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    background: gainsboro;
+    color: tomato;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    color: orangered;
+}
+
+nav a:hover {
+    color: rgb(73, 3, 249);
+}
+
+h2 {
+    color: chocolate;
+}
+
+.carte {
+    background: rgb(63, 60, 61);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.cartes {
+    display: flex;
+    gap: 20px;
+}
+
+.cartes .carte {
+    flex: 1;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
