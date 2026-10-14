@@ -14,7 +14,7 @@ while (nombre !== secret) {
     } else if (nombre > secret) {
         console.log("The number is smaller");
     } else {
-        console.log("The number is correct");
+        console.log("The number",secret, "is correct");
         console.log("Number of attempts:", essai);
     }
 }
