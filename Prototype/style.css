@@ -1,58 +1,61 @@
-body {
-    background: black;
-    font-family: sans-serif;
-    color: white;
-    line-height: 1.5;
+body{
+    background:cornsilk ;
+    font-family:monospace;
     margin: 0;
-}
+    line-height: 1.5;
+    font-size: 20px;
 
-header {
-    background: gainsboro;
-    color: tomato;
-    padding: 5px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
-
-nav ul {
+header{
+background-color: coral;
+color: whitesmoke;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 125px;
+padding: 0 25px;
+}
+ul{
     display: flex;
     gap: 20px;
     list-style: none;
-    font-size: 17px;
+    font-size: 18px;
 }
-
-nav a {
+ul a{
     text-decoration: none;
-    color: orangered;
+    color:darkblue;
 }
-
-nav a:hover {
-    color: rgb(73, 3, 249);
+ul a:hover{
+    color: blue;
 }
-
-h2 {
-    color: chocolate;
-}
-
-.carte {
-    background: rgb(63, 60, 61);
-    border-radius: 15px;
-    padding: 15px;
-    margin: 10px 0;
-}
-
-.cartes {
-    display: flex;
-    gap: 20px;
-}
-
-.cartes .carte {
-    flex: 1;
-}
-
-main {
+main{
+    margin: 0 auto;
+    padding: 0 20px;
     max-width: 800px;
-    margin: auto;
+}
+h2{
+    color: blue;
+}
+ p{
+    background-color: cornflowerblue;
     padding: 20px;
+    border-radius: 15px;
+    font-size: 19px;
+}
+nav li{
+    background-color: cornflowerblue;
+    padding: 18px;
+    border-radius: 30px;
+}
+h3{
+    color: black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: coral;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
 }
